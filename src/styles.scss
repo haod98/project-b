@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+$bg-color: rgb(0, 0, 0);
+
+body {
+    background: $bg-color;
+    padding: 10px 20px;
+}
+
+p, h2, h3, h4, a, button {
+    color: #fff
+}
